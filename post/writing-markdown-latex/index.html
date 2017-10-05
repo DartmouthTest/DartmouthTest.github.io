@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
+  <meta name="author" content="" />
+
+  
+  <meta name="keywords" content="devows, hugo, go">	
+  
+
+  
+  <meta name="description" content="Site template made by devcows using hugo">	
+  
+
+  <meta name="generator" content="Hugo 0.26" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link href="https://example.orgcss/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="https://example.orgcss/style.default.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+
+  
+  <link href="https://example.orgcss/custom.css" rel="stylesheet">
+
+  
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+  <link rel="shortcut icon" href="https://example.orgimg/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="https://example.orgimg/apple-touch-icon.png" />
+  
+
+  <link href="https://example.orgcss/owl.carousel.css" rel="stylesheet">
+  <link href="https://example.orgcss/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="https://example.org/index.xml" type="application/rss+xml" title="Universal">
+
+  
+  <meta property="og:title" content="Writing content with Markdown, LaTeX, and Shortcodes" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/post/writing-markdown-latex//" />
+  <meta property="og:image" content="img/logo.png" />
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="https://example.org">
+                    <img src="https://example.orgimg/logo.png" alt="Writing content with Markdown, LaTeX, and Shortcodes logo" class="hidden-xs hidden-sm">
+                    <img src="https://example.orgimg/logo-small.png" alt="Writing content with Markdown, LaTeX, and Shortcodes logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Writing content with Markdown, LaTeX, and Shortcodes - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/faq/">FAQ</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/contact/">Contact</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Writing content with Markdown, LaTeX, and Shortcodes</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <div class="col-md-9" id="blog-post">
+
+                        <p class="text-muted text-uppercase mb-small text-right">April 17, 2016</p>
+
+                        <div id="post-content">
+                          <p>Content can be written using <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown</a>, <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">LaTeX math</a>, and <a href="http://gohugo.io/extras/shortcodes/">Hugo Shortcodes</a>. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.</p>
+
+<p>{{% toc %}}</p>
+
+<h2 id="sub-headings">Sub-headings</h2>
+
+<pre><code>## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+</code></pre>
+
+<h2 id="emphasis">Emphasis</h2>
+
+<pre><code>Italics with *asterisks* or _underscores_.
+
+Bold with **asterisks** or __underscores__.
+
+Combined emphasis with **asterisks and _underscores_**.
+
+Strikethrough with ~~two tildes~~.
+</code></pre>
+
+<h2 id="ordered-lists">Ordered lists</h2>
+
+<pre><code>1. First item
+2. Another item
+</code></pre>
+
+<h2 id="unordered-lists">Unordered lists</h2>
+
+<pre><code>* First item
+* Another item
+</code></pre>
+
+<h2 id="images">Images</h2>
+
+<p>Images may be added to a page by placing them in your <code>static/img/</code> folder and referencing them using one of the following two notations:</p>
+
+<p>A general image:</p>
+
+<pre><code>![alternative text for search engines](/img/screenshot.png)
+</code></pre>
+
+<p>A numbered figure with caption:</p>
+
+<pre><code>{{&lt;/* figure src=&quot;/img/screenshot.png&quot; title=&quot;Figure Caption&quot; */&gt;}}
+</code></pre>
+
+<h2 id="links">Links</h2>
+
+<pre><code>[I'm a link](https://www.google.com)
+[A post]({{&lt;/* ref &quot;post/hi.md&quot; */&gt;}})
+[A publication]({{&lt;/* ref &quot;publication/hi.md&quot; */&gt;}})
+[A project]({{&lt;/* ref &quot;project/hi.md&quot; */&gt;}})
+[Another section]({{&lt;/* relref &quot;hi.md#who&quot; */&gt;}})
+</code></pre>
+
+<p>To enable linking to a file, such as a PDF, first place the file in your <code>static/files/</code> folder and then link to it using the following form:</p>
+
+<pre><code>{{%/* staticref &quot;files/cv.pdf&quot; */%}}Download my CV{{%/* /staticref */%}}
+</code></pre>
+
+<h2 id="emojis">Emojis</h2>
+
+<p>See the <a href="http://www.webpagefx.com/tools/emoji-cheat-sheet/">Emoji cheat sheet</a> for available emoticons. The following serves as an example, but you should remove the spaces between each emoji name and pair of semicolons:</p>
+
+<pre><code>I : heart : Academic : smile :
+</code></pre>
+
+<p>I :heart: Academic :smile:</p>
+
+<h2 id="blockquote">Blockquote</h2>
+
+<pre><code>&gt; This is a blockquote.
+</code></pre>
+
+<blockquote>
+<p>This is a blockquote.</p>
+</blockquote>
+
+<h2 id="footnotes">Footnotes</h2>
+
+<pre><code>I have more [^1] to say.
+
+[^1]: Footnote example.
+</code></pre>
+
+<p>I have more <sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup> to say.</p>
+
+<h2 id="code-highlighting">Code highlighting</h2>
+
+<p>Pass the <em>language</em> of the code, such as <code>python</code>, as a parameter after three backticks:</p>
+
+<pre><code>```python
+# Example of code highlighting
+input_string_var = input(&quot;Enter some data: &quot;)
+print(&quot;You entered: {}&quot;.format(input_string_var))
+```
+</code></pre>
+
+<p>Result:</p>
+
+<pre><code class="language-python"># Example of code highlighting
+input_string_var = input(&quot;Enter some data: &quot;)
+print(&quot;You entered: {}&quot;.format(input_string_var))
+</code></pre>
+
+<h3 id="highlighting-options">Highlighting options</h3>
+
+<p>The Academic theme uses <a href="https://highlightjs.org">highlight.js</a> for source code highlighting, and highlighting is enabled by default for all pages. However, several configuration options are supported that allow finer-grained control over highlight.js.</p>
+
+<p>The following table lists the supported options for configuring highlight.js, along with their expected type and a short description. A &ldquo;yes&rdquo; in the <strong>config.toml</strong> column means the value can be set globally in <code>config.toml</code>, and a &ldquo;yes&rdquo; in the <strong>preamble</strong> column means that the value can be set locally in a particular page&rsquo;s preamble.</p>
+
+<table>
+<thead>
+<tr>
+<th>option</th>
+<th>type</th>
+<th>description</th>
+<th>config.toml</th>
+<th>preamble</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>highlight</code></td>
+<td>boolean</td>
+<td>enable/disable highlighting</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+
+<tr>
+<td><code>highlight_languages</code></td>
+<td>slice</td>
+<td>choose additional languages</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+
+<tr>
+<td><code>highlight_style</code></td>
+<td>string</td>
+<td>choose a highlighting style</td>
+<td>yes</td>
+<td>no</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="option-highlight">Option <code>highlight</code></h4>
+
+<p>The <code>highlight</code> option allows enabling or disabling the inclusion of highlight.js, either globally or for a particular page. If the option is unset, it has the same effect as if you had specified <code>highlight = true</code>. That is, the highlight.js javascript and css files will be included in every page. If you&rsquo;d like to only include highlight.js files on pages that actually require source code highlighting, you can set <code>highlight = false</code> in <code>config.toml</code>, and then override it by setting <code>highlight = true</code> in the preamble of any pages that require source code highlighting. Conversely, you could enable highlighting globally, and disable it locally for pages that do not require it. Here is a table that shows whether highlighting will be enabled for a page, based on the values of <code>highlight</code> set in <code>config.toml</code> and/or the page&rsquo;s preamble.</p>
+
+<table>
+<thead>
+<tr>
+<th>config.toml</th>
+<th>page preamble</th>
+<th>highlighting enabled for page?</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>unset or true</td>
+<td>unset or true</td>
+<td>yes</td>
+</tr>
+
+<tr>
+<td>unset or true</td>
+<td>false</td>
+<td>no</td>
+</tr>
+
+<tr>
+<td>false</td>
+<td>unset or false</td>
+<td>no</td>
+</tr>
+
+<tr>
+<td>false</td>
+<td>true</td>
+<td>yes</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="option-highlight-languages">Option <code>highlight_languages</code></h4>
+
+<p>The <code>highlight_languages</code> option allows you to specify additional languages that are supported by highlight.js, but are not considered &ldquo;common&rdquo; and therefore are not supported by default. For example, if you want source code highlighting for Go and clojure in all pages, set <code>highlight_languages = [&quot;go&quot;, &quot;clojure&quot;]</code> in <code>config.toml</code>. If, on the other hand, you want to enable a language only for a specific page, you can set <code>highlight_languages</code> in that page&rsquo;s preamble.</p>
+
+<p>The <code>highlight_languages</code> options specified in <code>config.toml</code> and in a page&rsquo;s preamble are additive. That is, if <code>config.toml</code> contains, <code>highlight_languages = [&quot;go&quot;]</code> and the page&rsquo;s preamble contains <code>highlight_languages = [&quot;ocaml&quot;]</code>, then javascript files for <em>both</em> go and ocaml will be included for that page.</p>
+
+<p>If the <code>highlight_languages</code> option is set, then the corresponding javascript files will be served from the <a href="https://cdnjs.com/libraries/highlight.js/">cdnjs server</a>. To see a list of available languages, visit the <a href="https://cdnjs.com/libraries/highlight.js/">cdnjs page</a> and search for links with the word &ldquo;languages&rdquo;.</p>
+
+<p>The <code>highlight_languages</code> option provides an easy and convenient way to include support for additional languages to be severed from a CDN. If serving unmodified files from cdnjs doesn&rsquo;t meet your needs, you can include javascript files for additional language support via one of the methods described in the <a href="{{&lt; ref &quot;post/getting-started.md#third-party-and-local-scripts-js&quot; &gt;}}">getting started guide</a>.</p>
+
+<h4 id="option-highlight-style">Option <code>highlight_style</code></h4>
+
+<p>The <code>highlight_style</code> option allows you to select an alternate css style for highlighted code. For example, if you wanted to use the solarized-dark style, you could set <code>highlight_style = &quot;solarized-dark&quot;</code> in <code>config.toml</code>.</p>
+
+<p>If the <code>highlight_style</code> option is unset, the default is to use the file <code>/css/highlight.min.css</code>, either the one provided by the Academic theme, or else the one in your local <code>static</code> directory.  The <code>/css/highlight.min.css</code> file provided by Academic is equivalent to the <code>github</code> style from highlight.js.</p>
+
+<p>If the <code>highlight_style</code> option <em>is</em> set, then <code>/css/highlight.min.css</code> is ignored, and the corresponding css file will be served from the <a href="https://cdnjs.com/libraries/highlight.js/">cdnjs server</a>. To see a list of available styles, visit the <a href="https://cdnjs.com/libraries/highlight.js/">cdnjs page</a> and search for links with the word &ldquo;styles&rdquo;.</p>
+
+<p>See the <a href="https://highlightjs.org/static/demo/">highlight.js demo page</a> for examples of available styles.</p>
+
+<p>{{% alert note %}}
+Not all styles listed on the <a href="https://highlightjs.org/static/demo/">highlight.js demo page</a> are available from the <a href="https://cdnjs.com/libraries/highlight.js/">cdnjs server</a>. If you want to use a style that is not served by cdnjs, just leave <code>highlight_style</code> unset, and place the corresponding css file in <code>/static/css/highlight.min.css</code>.
+{{% /alert %}}</p>
+
+<p>{{% alert note %}}
+If you don&rsquo;t want to change the default style that ships with Academic but you do want the style file served from the <a href="https://cdnjs.com/libraries/highlight.js/">cdnjs server</a>, set <code>highlight_style = &quot;github&quot;</code> in <code>config.toml</code>.
+{{% /alert %}}</p>
+
+<p>The <code>highlight_style</code> option is only recognized when set in <code>config.toml</code>. Setting <code>highlight_style</code> in your page&rsquo;s preamble has no effect.</p>
+
+<h2 id="twitter-tweet">Twitter tweet</h2>
+
+<p>To include a single tweet, pass the tweet’s ID from the tweet&rsquo;s URL as parameter to the shortcode:</p>
+
+<pre><code>{{&lt;/* tweet 666616452582129664 */&gt;}}
+</code></pre>
+
+<h2 id="youtube">Youtube</h2>
+
+<pre><code>{{&lt;/* youtube w7Ft2ymGmfc */&gt;}}
+</code></pre>
+
+<h2 id="vimeo">Vimeo</h2>
+
+<pre><code>{{&lt;/* vimeo 146022717 */&gt;}}
+</code></pre>
+
+<h2 id="github-gist">GitHub gist</h2>
+
+<pre><code>{{&lt;/* gist USERNAME GIST-ID  */&gt;}}
+</code></pre>
+
+<h2 id="speaker-deck">Speaker Deck</h2>
+
+<pre><code>{{&lt;/* speakerdeck 4e8126e72d853c0060001f97 */&gt;}}
+</code></pre>
+
+<h2 id="rm-latex-math">$\rm \LaTeX$ math</h2>
+
+<pre><code class="language-TeX">$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$
+</code></pre>
+
+<p>$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$</p>
+
+<p>Alternatively, inline math can be written by wrapping the formula with only a single <code>$</code>:</p>
+
+<pre><code>This is inline: $\mathbf{y} = \mathbf{X}\boldsymbol\beta + \boldsymbol\varepsilon$
+</code></pre>
+
+<p>This is inline: $\mathbf{y} = \mathbf{X}\boldsymbol\beta + \boldsymbol\varepsilon$</p>
+
+<h2 id="table">Table</h2>
+
+<p>Code:</p>
+
+<pre><code class="language-Markdown">| Command           | Description                    |
+| ------------------| ------------------------------ |
+| `hugo`            | Build your website.            |
+| `hugo serve -w`   | View your website.             |
+</code></pre>
+
+<p>Result:</p>
+
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>hugo</code></td>
+<td>Build your website.</td>
+</tr>
+
+<tr>
+<td><code>hugo serve -w</code></td>
+<td>View your website.</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="alerts">Alerts</h2>
+
+<p>Alerts are a useful feature that add side content such as tips, notes, or warnings to your articles. They are especially handy when writing educational tutorial-style articles. Use the corresponding shortcodes to enable alerts inside your content:</p>
+
+<pre><code>{{%/* alert note */%}}
+Here's a tip or note...
+{{%/* /alert */%}}
+</code></pre>
+
+<p>This will display the following <em>note</em> block:</p>
+
+<p>{{% alert note %}}
+Here&rsquo;s a tip or note&hellip;
+{{% /alert %}}</p>
+
+<pre><code>{{%/* alert warning */%}}
+Here's some important information...
+{{%/* /alert */%}}
+</code></pre>
+
+<p>This will display the following <em>warning</em> block:</p>
+
+<p>{{% alert warning %}}
+Here&rsquo;s some important information&hellip;
+{{% /alert %}}</p>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<p>A table of contents may be particularly useful for long posts or tutorial/documentation type content. Use the <code>{{%/* toc */%}}</code> shortcode anywhere you wish within your Markdown content to automatically generate a table of contents.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">Footnote example.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
+                        </div>
+                        
+                        
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "devcows" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
+                        
+
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" results="0" class="form-control" placeholder="Search">
+                <input type="hidden" name="q" value="site:https://example.org">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            <li><a href="https://example.orgcategories/lorem">lorem (1)</a>
+            </li>
+            
+            <li><a href="https://example.orgcategories/programming">programming (2)</a>
+            </li>
+            
+            <li><a href="https://example.orgcategories/pseudo">pseudo (1)</a>
+            </li>
+            
+            <li><a href="https://example.orgcategories/starting">starting (1)</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+    <div class="panel-heading">
+      <h3 class="panel-title">Tags</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            <li><a href="https://example.orgtags/academic"><i class="fa fa-tags"></i> academic</a>
+            </li>
+            
+            <li><a href="https://example.orgtags/deep-learning"><i class="fa fa-tags"></i> deep-learning</a>
+            </li>
+            
+            <li><a href="https://example.orgtags/demo"><i class="fa fa-tags"></i> demo</a>
+            </li>
+            
+            <li><a href="https://example.orgtags/go"><i class="fa fa-tags"></i> go</a>
+            </li>
+            
+            <li><a href="https://example.orgtags/golang"><i class="fa fa-tags"></i> golang</a>
+            </li>
+            
+            <li><a href="https://example.orgtags/hugo"><i class="fa fa-tags"></i> hugo</a>
+            </li>
+            
+            <li><a href="https://example.orgtags/ipsum"><i class="fa fa-tags"></i> ipsum</a>
+            </li>
+            
+            <li><a href="https://example.orgtags/jekyll"><i class="fa fa-tags"></i> jekyll</a>
+            </li>
+            
+            <li><a href="https://example.orgtags/programming"><i class="fa fa-tags"></i> programming</a>
+            </li>
+            
+            <li><a href="https://example.orgtags/theme"><i class="fa fa-tags"></i> theme</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>About us</h4>
+
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+             
+            <h4>Recent posts</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://example.org/blog/2015/10/10/migrate-from-jekyll/">
+                          
+                            <img src="https://example.orgimg/banners/banner-5.jpg" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://example.org/blog/2015/10/10/migrate-from-jekyll/">Migrate from Jekyll</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://example.org/blog/2015/10/02/linked-post/">
+                          
+                            <img src="https://example.orgimg/banners/banner-4.jpg" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://example.org/blog/2015/10/02/linked-post/">Linked post</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://example.org/blog/2015/09/17/go-is-for-lovers/">
+                          
+                            <img src="https://example.orgimg/banners/banner-2.jpg" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://example.org/blog/2015/09/17/go-is-for-lovers/">Go is for lovers</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+             
+
+        </div>
+        
+
+        
+        <div class="col-md-4 col-sm-6">
+
+          <h4>Contact</h4>
+
+            <strong>Universal Ltd.</strong>
+        <br>13/25 New Avenue
+        <br>Newtown upon River
+        <br>45Y 73J
+        <br>England
+        <br>
+        <strong>Great Britain</strong>
+      </p>
+      
+
+
+            <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</p>
+            
+            <p class="pull-right">
+              Template by <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              
+
+              Ported to Hugo by <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y&v=3.exp"></script>
+
+<script src="https://example.orgjs/hpneo.gmaps.js"></script>
+<script src="https://example.orgjs/gmaps.init.js"></script>
+<script src="https://example.orgjs/front.js"></script>
+
+
+<script src="https://example.orgjs/owl.carousel.min.js"></script>
+
+
+  </body>
+</html>
